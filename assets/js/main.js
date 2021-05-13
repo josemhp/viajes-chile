@@ -35,3 +35,8 @@ $(document).ready(function () {
 
 // Bootstrap Carousel
 $(".carousel").carousel();
+
+// ToolTips
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip();
+});
